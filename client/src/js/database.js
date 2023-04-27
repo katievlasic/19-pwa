@@ -20,7 +20,8 @@ const initdb = async () =>
     // method that accepts some content and adds it to the database
   const request = store.add({content});
   const result = await request;
-  console.log('Content save to the database :', content)
+  console.log('Content save to the database :', content);
+  return result;
 };
 
 export const getDb = async () => {
