@@ -2,7 +2,7 @@
 
 ## Description
 
-This application can be used to connect users that have opinions about cities! Users can rate a given city based on the following categories: night life, affodability, dining, transporataion, activities, and family friendliness. The rating will be out of 5 stars with 5 being the highest rating 🤩. 
+This application can be used to  .......... 
 
 ![Preview](./client/src/images/01-manifest.png)
 
