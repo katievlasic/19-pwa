@@ -2,7 +2,7 @@
 
 ## Description
 
-This application can be used to  .......... 
+[This application](https://kvpwatext.herokuapp.com/) can be used to enter text on a web application and the text will be stored (cached) for offline use if the web application is installed localled. 
 
 ![Preview](./client/src/images/01-manifest.png)
 
@@ -16,30 +16,15 @@ This application can be used to  ..........
 
 ## Installation
 
-1. Go to root directory
-2. npm init -y
-3. Type in the terminal the following:
-* `npm i inquirer@8.2.4` 
-* `npm install @babel/core`
-* `npm install @babel/plugin-transform-runtime`
-* `npm install @babel/preset-env`
-* `npm install @babel/runtime`
-* `npm install babel-loader`
-* `npm install css-loader`
-* `npm install html-webpack-plugin`
-* `npm install http-server`
-* `npm install style-loader`
-* `npm install webpack`
-* `npm install webpack-cli`
-* `npm install webpack-dev-server`
-* `npm install webpack-pwa-manifest`
-* `npm installworkbox-webpack-plugin`
-4. Open the [web application here] ()
+Referencing the package.json file (scripts) in the root directory and type the following commands in the terminal:
+1. `npm install`
+2. `npm build`
+3. `npm start:dev`
 
 ## Usage
 
-Navigate through the [application](https://nomad-city-rating.herokuapp.com/) ......
+Navigate through the [application](https://kvpwatext.herokuapp.com/) by entering text on the sequeced lines and hit enter to return to a new line. All text will be stored as the same object. This application can be accessed offline by clicking the 'Install!' button on the upper left corner. Using a modern web browser such as Google Chrome, a modal will pop up with a prompt to install the application. If desired, install the application for offline usage. The same functionality, including DevTools, will be available.
 
 ## Questions
 
-Please contact any of the contributors with any questions. 
+Please contact any of the [Katie Vlasic](https://github.com/katievlasic) with any questions. 
